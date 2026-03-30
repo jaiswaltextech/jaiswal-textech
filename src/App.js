@@ -13,7 +13,16 @@ export default function JaiswalTexTech() {
     <div className="bg-[#f8f6f2] text-gray-900 font-sans">
       {/* NAVBAR */}
       <div className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur text-white flex justify-between px-6 py-4">
-        <div className="font-semibold tracking-wide">Jaiswal TexTech</div>
+        <div className="flex items-center gap-1 font-semibold tracking-wide">
+          <img
+            src="/images/logo.png"
+            alt="Jaiswal TexTech Logo"
+            className="h-11 w-11 object-contain -mr-2"
+          />
+          <span>Jaiswal TexTech</span>
+        </div>
+
+        {/* RIGHT → MENU */}
         <div className="hidden md:flex gap-6 text-sm">
           <a href="#work">Work</a>
           <a href="#about">About</a>
@@ -178,7 +187,7 @@ export default function JaiswalTexTech() {
       {/* FOOTER */}
       <footer className="py-10 text-center text-sm text-gray-500">
         <div>© {new Date().getFullYear()} Jaiswal TexTech</div>
-        <div className="mt-2">Thane, Maharashtra | Flat Knitwear Manufacturer</div>
+        <div className="mt-2">Mumbai, Maharashtra | Flat Knitwear Manufacturer</div>
       </footer>
     </div>
   );
