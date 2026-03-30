@@ -25,6 +25,7 @@ export default function JaiswalTexTech() {
       <section className="relative h-screen flex items-center justify-center text-center">
         <img
           src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1600"
+          alt="Premium knitwear manufacturing fabric texture"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/65" />
@@ -115,6 +116,7 @@ export default function JaiswalTexTech() {
             >
               <img
                 src={p.img}
+                alt={p.name}
                 className="w-full h-80 object-cover transition duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-end p-4 text-white">
