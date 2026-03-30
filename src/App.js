@@ -49,7 +49,7 @@ export default function JaiswalTexTech() {
               View Work
             </a>
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/917977956408"
               className="border px-6 py-3 rounded-full"
             >
               WhatsApp
@@ -168,7 +168,7 @@ export default function JaiswalTexTech() {
           From sampling to production — we move fast with quality.
         </p>
         <a
-          href="https://wa.me/91XXXXXXXXXX"
+          href="https://wa.me/917977956408"
           className="mt-8 inline-block bg-white text-black px-8 py-3 rounded-full"
         >
           Chat on WhatsApp
