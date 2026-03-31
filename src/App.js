@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 export default function JaiswalTexTech() {
   const products = [
     { name: "Textured Sweater", img: "/images/brown.png" },
-    { name: "Beige Knit Sweater", img: "/images/beige.png" },
+    { name: "Beige Knit Sweater", img: "/images/beige_knit.png" },
     { name: "Knit Polo", img: "/images/grey.png" },
-    { name: "Knit Shirt", img: "/images/shirt.png" },
+    { name: "Knit Shirt", img: "/images/shirt_knit.png" },
   ];
 
   return (
