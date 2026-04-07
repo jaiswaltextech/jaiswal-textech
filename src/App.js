@@ -33,7 +33,7 @@ export default function JaiswalTexTech() {
       {/* HERO (UPDATED PREMIUM BANNER) */}
       <section className="relative h-screen flex items-center justify-center text-center">
         <img
-          src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1600"
+          src="/images/banner.png"
           alt="Premium knitwear manufacturing fabric texture"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -72,7 +72,7 @@ export default function JaiswalTexTech() {
         <div>
           <h2 className="text-4xl font-semibold">About Jaiswal TexTech</h2>
           <p className="mt-6 text-gray-600 leading-relaxed">
-            Based in Thane, Maharashtra — we manufacture premium flat knitwear for fashion brands.
+            Based in Mumbai, Maharashtra. We manufacture premium flat knitwear for fashion brands.
             Our strength lies in textures, structure, and clean finishing.
           </p>
         </div>
